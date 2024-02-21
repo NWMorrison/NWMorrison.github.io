@@ -1,7 +1,7 @@
 ---
 title: Tip Calculator
-author: Nash Morrison
-date: 2019-08-09 20:55:00 +0800
+author: Morrison
+date: 2024-02-20 20:55:00 +0800
 categories: [Projects]
 tags: [C++]
 pin: true
