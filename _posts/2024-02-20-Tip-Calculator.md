@@ -10,7 +10,8 @@ img_path: '/posts/20180809'
 
 ## Program
 
-Here is my program: [Tip Calculator](https://github.com/NWMorrison/Tip_Calculator_Final) 
+Here is my program: [Tip Calculator](https://github.com/NWMorrison/Tip_Calculator_Final).
+It is a fully functional tip calculator.
 
 ## Installation
 
