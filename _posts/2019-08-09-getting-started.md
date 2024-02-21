@@ -8,9 +8,9 @@ pin: true
 img_path: '/posts/20180809'
 ---
 
-## Prerequisites
+## Program
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+Here is my program: [Tip Calculator](https://github.com/NWMorrison/Tip_Calculator_Final) 
 
 ## Installation
 
