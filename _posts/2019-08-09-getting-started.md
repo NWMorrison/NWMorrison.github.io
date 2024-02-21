@@ -1,6 +1,6 @@
 ---
 title: Tip Calculator
-author: morrison
+author: test
 date: 2024-02-20 20:55:00 +0800
 categories: [Projects]
 tags: [C++]
