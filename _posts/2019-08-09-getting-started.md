@@ -1,9 +1,9 @@
 ---
-title: Getting Started
-author: cotes
+title: Tip Calculator
+author: Morrison
 date: 2019-08-09 20:55:00 +0800
-categories: [Blogging, Tutorial]
-tags: [getting started]
+categories: [Projects]
+tags: [C++]
 pin: true
 img_path: '/posts/20180809'
 ---
