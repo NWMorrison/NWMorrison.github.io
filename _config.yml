@@ -23,7 +23,7 @@ description: My Software Engineering Portfolio showcasing my projects. >- # used
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "Https://NWMorrison.github.io"
+url: 'Https://NWMorrison.github.io'
 
 github:
   username: NWMorrison # change to your github username
