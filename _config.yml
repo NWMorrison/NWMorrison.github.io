@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title:  Software Engineering Portfolio # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Nash W. Morrison # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   My Software Engineering Portfolio showcasing my projects.
