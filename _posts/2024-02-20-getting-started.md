@@ -13,7 +13,7 @@ img_path: '/posts/20180809'
 Here is my program: [Tip Calculator](https://github.com/NWMorrison/Tip_Calculator_Final).
 It is a fully functional tip calculator.
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">///-------------------------------------------------Tip-Calculator---------------------------------------------------///</span>
+<pre class="hljs" style="display: block; overflow-x: hidden; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">///-------------------------------------------------Tip-Calculator---------------------------------------------------///</span>
 <span class="hljs-comment" style="color: rgb(136, 136, 136);">///                  This program is a fully functional tip calculator that will do the following:                   ///</span>
 <span class="hljs-comment" style="color: rgb(136, 136, 136);">// 1). Accept a Subtotal Amount (Before tip adjustment)</span>
 <span class="hljs-comment" style="color: rgb(136, 136, 136);">// 2). Accept a tip (Either as a percentage or a whole dollar amount)</span>
