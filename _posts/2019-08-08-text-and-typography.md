@@ -121,6 +121,15 @@ if [ $? -ne 0 ]; then
 fi;
 ```
 
+```cpp
+int x = 0;
+do
+{
+  std::cout << "Hello World" << std::endl;
+  std::cin << "Enter 0 to exit" << std::endl;
+}while(x != 0);
+```
+
 ### Specific filename
 
 ```sass
