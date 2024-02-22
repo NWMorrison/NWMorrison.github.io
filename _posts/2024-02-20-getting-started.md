@@ -12,7 +12,7 @@ img_path: '/posts/20180809'
 
 Here is my program: [Tip Calculator](https://github.com/NWMorrison/Tip_Calculator_Final).
 It is a fully functional tip calculator.
-
+```
 &lt;span style='color:#3f5fbf; '&gt;///-------------------------------------------------Tip-Calculator---------------------------------------------------///&lt;/span&gt;
 &lt;span style='color:#3f5fbf; '&gt;/// This program is a fully functional tip calculator that will do the following: ///&lt;/span&gt;
 &lt;span style='color:#696969; '&gt;// 1). Accept a Subtotal Amount (Before tip adjustment)&lt;/span&gt;
@@ -108,7 +108,7 @@ final_Amount &lt;span style='color:#808030; '&gt;=&lt;/span&gt; &lt;span style='
 &lt;span style='color:#800000; font-weight:bold; '&gt;return&lt;/span&gt; &lt;span style='color:#008c00; '&gt;0&lt;/span&gt;&lt;span style='color:#800080; '&gt;;&lt;/span&gt;
 &lt;span style='color:#800080; '&gt;}&lt;/span&gt;
 &lt;!--Created using ToHTML.com on 2024-02-22 03:04:41 UTC --&gt;
-
+```
 
 ## Installation
 
