@@ -11,7 +11,8 @@ img_path: '/posts/20180809'
 ## Program
 
 Here is my program: [Tip Calculator](https://github.com/NWMorrison/Tip_Calculator_Final).
-It is a fully functional tip calculator.
+A fully functional tip calculator.
+
 
 <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">///-------------------------------------------------Tip-Calculator---------------------------------------------------///</span>
 <span class="hljs-comment" style="color: rgb(136, 136, 136);">///                  This program is a fully functional tip calculator that will do the following:                   ///</span>
