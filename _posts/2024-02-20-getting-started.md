@@ -22,31 +22,31 @@ It is a fully functional tip calculator.
 <span class="hljs-comment" style="color: rgb(136, 136, 136);">// 5). Calculate any missing values.</span>
 
 
-<span class="hljs-meta" style="color: rgb(31, 113, 153);">#<span class="hljs-meta-keyword" style="font-weight: 700;">include</span> <span class="hljs-meta-string" style="color: rgb(77, 153, 191);">&lt;iostream&gt;</span> <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Input/Output to our console.</span></span>
-<span class="hljs-meta" style="color: rgb(31, 113, 153);">#<span class="hljs-meta-keyword" style="font-weight: 700;">include</span> <span class="hljs-meta-string" style="color: rgb(77, 153, 191);">&lt;iomanip&gt;</span>  <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Manipulation of our console.</span></span>
+<span class="hljs-meta" style="color: rgb(31, 113, 153);">#<span class="hljs-meta-keyword" style="font-weight: 400;">include</span> <span class="hljs-meta-string" style="color: rgb(77, 153, 191);">&lt;iostream&gt;</span> <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Input/Output to our console.</span></span>
+<span class="hljs-meta" style="color: rgb(31, 113, 153);">#<span class="hljs-meta-keyword" style="font-weight: 400;">include</span> <span class="hljs-meta-string" style="color: rgb(77, 153, 191);">&lt;iomanip&gt;</span>  <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Manipulation of our console.</span></span>
 
 
-<span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">int</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">main</span><span class="hljs-params">()</span>
+<span class="hljs-function"><span class="hljs-keyword" style="font-weight: 400;">int</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 400;">main</span><span class="hljs-params">()</span>
 </span>{
 
-    <span class="hljs-keyword" style="font-weight: 700;">int</span> choice = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;                 <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This allows for a controlled do/while loop to repeatedly run the tip-calculator.</span>
+    <span class="hljs-keyword" style="font-weight: 400;">int</span> choice = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;                 <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This allows for a controlled do/while loop to repeatedly run the tip-calculator.</span>
 
     <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">cout</span> &lt;&lt; <span class="hljs-string" style="color: rgb(136, 0, 0);">"\t\t\tWelcome To My Tip Calculator\n"</span>
                  <span class="hljs-string" style="color: rgb(136, 0, 0);">"\nThis Program will take a subtotal amount input by the user and calculate the tip on that amount.\n"</span>
                  <span class="hljs-string" style="color: rgb(136, 0, 0);">"You may input either a percentage or an actual dollar amount that you would like to leave.\n"</span>
                  <span class="hljs-string" style="color: rgb(136, 0, 0);">"The Program will then provide a receipt with everything broken down in a neat format."</span> &lt;&lt; <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">endl</span>;
 
-    <span class="hljs-keyword" style="font-weight: 700;">do</span>
+    <span class="hljs-keyword" style="font-weight: 400;">do</span>
     {
-        <span class="hljs-keyword" style="font-weight: 700;">int</span> option = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;             <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This allows for control of our conditional-if branch.</span>
+        <span class="hljs-keyword" style="font-weight: 400;">int</span> option = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;             <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This allows for control of our conditional-if branch.</span>
 
 
-        <span class="hljs-keyword" style="font-weight: 700;">double</span> subTotal = <span class="hljs-number" style="color: rgb(136, 0, 0);">0.00</span>;     <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our initial subtotal value input by the user.</span>
-        <span class="hljs-keyword" style="font-weight: 700;">double</span> tip;                 <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our final tip amount which is completed on the back-end.</span>
-        <span class="hljs-keyword" style="font-weight: 700;">double</span> tip_Percent = <span class="hljs-number" style="color: rgb(136, 0, 0);">0.00</span>;  <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our tip percentage value. (User Input &amp; Back-End).</span>
+        <span class="hljs-keyword" style="font-weight: 400;">double</span> subTotal = <span class="hljs-number" style="color: rgb(136, 0, 0);">0.00</span>;     <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our initial subtotal value input by the user.</span>
+        <span class="hljs-keyword" style="font-weight: 400;">double</span> tip;                 <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our final tip amount which is completed on the back-end.</span>
+        <span class="hljs-keyword" style="font-weight: 400;">double</span> tip_Percent = <span class="hljs-number" style="color: rgb(136, 0, 0);">0.00</span>;  <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our tip percentage value. (User Input &amp; Back-End).</span>
 
-        <span class="hljs-keyword" style="font-weight: 700;">double</span> cash_Amount = <span class="hljs-number" style="color: rgb(136, 0, 0);">0.00</span>;  <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our cash amount input by the user.</span>
-        <span class="hljs-keyword" style="font-weight: 700;">double</span> final_Amount;        <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our final total amount which is completed on the back-end.</span>
+        <span class="hljs-keyword" style="font-weight: 400;">double</span> cash_Amount = <span class="hljs-number" style="color: rgb(136, 0, 0);">0.00</span>;  <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our cash amount input by the user.</span>
+        <span class="hljs-keyword" style="font-weight: 400;">double</span> final_Amount;        <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This variable holds our final total amount which is completed on the back-end.</span>
 
 
         <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This block asks for user input of our subtotal.</span>
@@ -66,7 +66,7 @@ It is a fully functional tip calculator.
 
 
 
-        <span class="hljs-keyword" style="font-weight: 700;">if</span> (option == <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>) <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Option 1: (Tip Percentage Calculation)</span>
+        <span class="hljs-keyword" style="font-weight: 400;">if</span> (option == <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>) <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Option 1: (Tip Percentage Calculation)</span>
         {
             <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This block asks for the percentage amount for the tip that the user would like to leave.</span>
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">cout</span> &lt;&lt; <span class="hljs-string" style="color: rgb(136, 0, 0);">"Enter the Percentage (00.00)% Amount You would like to leave: "</span>;
@@ -95,7 +95,7 @@ It is a fully functional tip calculator.
         }
 
 
-        <span class="hljs-keyword" style="font-weight: 700;">else</span> <span class="hljs-keyword" style="font-weight: 700;">if</span> (option == <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>) <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Option 2 (Cash Amount Calculation)</span>
+        <span class="hljs-keyword" style="font-weight: 400;">else</span> <span class="hljs-keyword" style="font-weight: 400;">if</span> (option == <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>) <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Option 2 (Cash Amount Calculation)</span>
         {
             <span class="hljs-comment" style="color: rgb(136, 136, 136);">// This block asks the user for the cash amount that they would like to leave as a tip.</span>
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">cout</span> &lt;&lt; <span class="hljs-string" style="color: rgb(136, 0, 0);">"Enter The Cash Amount ($10.00, $20.00, $50.00) You Would Like To Leave:  "</span>;
@@ -122,7 +122,7 @@ It is a fully functional tip calculator.
 
 
         <span class="hljs-comment" style="color: rgb(136, 136, 136);">// Minor error handling if user inputs anything but a 1 or a 2 as an integer input.</span>
-        <span class="hljs-keyword" style="font-weight: 700;">else</span>
+        <span class="hljs-keyword" style="font-weight: 400;">else</span>
         {
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">cout</span> &lt;&lt; <span class="hljs-string" style="color: rgb(136, 0, 0);">"Invalid Input. Please Run The Program Again."</span> &lt;&lt; <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">endl</span>;
         }
@@ -140,7 +140,7 @@ It is a fully functional tip calculator.
         <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">cin</span> &gt;&gt; choice;
         <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">cout</span> &lt;&lt; <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">endl</span>;
 
-    } <span class="hljs-keyword" style="font-weight: 700;">while</span> (choice != <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>); <span class="hljs-comment" style="color: rgb(136, 136, 136);">// If our choice is 2 which is no, we exit our do/while loop.</span>
+    } <span class="hljs-keyword" style="font-weight: 400;">while</span> (choice != <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>); <span class="hljs-comment" style="color: rgb(136, 136, 136);">// If our choice is 2 which is no, we exit our do/while loop.</span>
 
 
 
@@ -149,7 +149,7 @@ It is a fully functional tip calculator.
                  <span class="hljs-string" style="color: rgb(136, 0, 0);">"Have A Nice Day!"</span> &lt;&lt; <span class="hljs-built_in" style="color: rgb(57, 115, 0);">std</span>::<span class="hljs-built_in" style="color: rgb(57, 115, 0);">endl</span>;
 
 
-    <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;
+    <span class="hljs-keyword" style="font-weight: 400;">return</span> <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;
 }</pre>
 
 ## Installation
